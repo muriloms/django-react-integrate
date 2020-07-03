@@ -1,2 +1,25 @@
-# django-react-integrate
-Integração React (front-end) e Django (back-end)
+# Integração de Reack (front-end) e Django (back-end)
+
+### Preparar ambiente e instalar pacotes
+```  
+virtualenv django-env
+
+pip install django
+
+pip install djangorestframework
+```
+
+Iniciar projeto django
+```
+django-admin startproject djreact
+
+python manage.py migrate
+
+python manage.py createsuper
+```
+
+Iniciar app
+```
+python manage.py startapp articles
+
+```
