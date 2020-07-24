@@ -3,6 +3,7 @@
 ### Preparar ambiente e instalar pacotes
 ```  
 virtualenv django-env
+source django-env/bin/activate
 
 pip install django
 
